@@ -51,4 +51,4 @@ async def on_message(message):
 async def meow_command(interaction: discord.Interaction):
     await interaction.response.send_message(random.choice(MEOWS))
 
-bot.run(os.getenv("MTQ1Njc1OTc2MzkzNjM1MDIzOA.GhiNQ0.VszDQn5sVPgutu8AdjZNX5dW7SdI1gnX2FprCo"))
+bot.run(os.getenv("TOKEN"))
